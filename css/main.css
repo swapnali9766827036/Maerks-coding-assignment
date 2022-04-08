@@ -1,0 +1,47 @@
+.shuffle-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    float: left;
+}
+.box{
+    width: 33.33%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+}
+.button-box{
+    width:20%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.white-gray{
+    background-color: #BFBFBF;
+}
+.light-blue{
+    background: #6F98A8;
+}
+.dark-blue{
+    background: #2F454E
+}
+.blue{
+    background: #72C3DC;
+}
+.button-box button {
+    background: #72c3dc;
+    border: 0;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
